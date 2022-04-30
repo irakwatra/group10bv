@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/layout/layout"
-import Image from "../components/images/images"
+import Layout from "../components/Layout/Layout"
+import Image from "../components/Images/Images"
 import { ArrowLeft, Cart } from "react-bootstrap-icons"
 import { Link } from "gatsby"
 

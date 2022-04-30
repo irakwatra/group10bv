@@ -42,7 +42,7 @@ const Stationery = () => {
                   height: "300px",
                   width: "500px",
                 }}
-                filename="maheshmed.jpg"
+                filename="dkstationary.jpeg"
                 alt="1"
               />
             </div>
