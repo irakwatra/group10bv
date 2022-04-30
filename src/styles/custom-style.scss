@@ -1,0 +1,141 @@
+@import "~bootstrap/scss/bootstrap";
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-inner {
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.button1{
+ background-color: rgb(217, 202, 179)
+}
+
+.button2{
+  background-color: rgb(222, 182, 171);
+}
+.button3{
+  background-color: rgb(172, 125, 136);
+}
+.button4{
+  background-color: rgb(218, 229, 208);
+}
+.button5{
+  background-color: rgb(160, 188, 194);
+}
+.button6{
+  background-color: rgb(211, 228, 205);
+}
+.button7{
+  background-color: rgb(153, 167, 153);
+}
+.button8{
+  background-color: rgb(180, 207, 176);
+}
+.button9{
+  background-color: rgb(148, 180, 159);
+}
+.button10{
+  background-color: rgb(217, 202, 179);
+}
+.button11{
+  background-color: rgb(146, 169, 189);
+}
+.button12{
+  background-color: rgb(146, 186, 146);
+}
+.header1{
+  background-color: rgb(8, 32, 50);
+}
+.backbutton
+{
+  background-color: rgb(211, 222, 220);
+}
+backbutton:hover{
+  background-color: rgb(146, 169, 189);
+}
+.card,
+.card-img,
+.card-img-top {
+  border-radius: 10px !important;
+  border: none;
+  overflow: hidden;
+}
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+.card{
+  background-color: rgb(255, 255, 255);
+}
+
+.card:hover{
+  background-color: rgb(218, 229, 208)}
+
+
+
+/* ============ Portfolio ============ */
+.figure {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+}
+
+.figcaption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.figcaption-on {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.figure:hover .figcaption {
+  opacity: 1;
+}
+
+.hover {
+  background-color: none;
+}
+
+.hover:hover {
+  background-color: #f1f1f1;
+}
+.fat-text {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.healthy-text {
+  font-weight: 900;
+  font-size: 2rem;
+}
+.back1{
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(148,187,233,1) 100%);
+}
+
