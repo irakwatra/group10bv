@@ -10,10 +10,8 @@ customField:
   name: Pack Size
   values:
     [
-      { name: "One Cake", priceChange: 0 },
-      { name: "Pack of 6", priceChange: 9.50 },
-      { name: "Pack of 12", priceChange: 20.00 },
+      { name: "1", priceChange: 0 },
+      { name: "2", priceChange: 400 },
+      { name: "3", priceChange: 600 },
     ]
 ---
-
-This cake will match your pet unicorn nicely.

@@ -49,13 +49,10 @@ class Header extends React.Component {
   render() {
     return (
       <nav
-        className="navbar navbar-expand-lg navbar header1 py-3 mx-auto justify-content-center"
+        className="navbar navbar-expand-lg navbar header1 py-3 mx-auto justify-content-center "
         aria-label="Fifth navbar example"
       >
         <div className="container-fluid">
-          {/* <a className="navbar-brand" href="/">
-            PROJECT 2022
-          </a> */}
           <button
             className="navbar-toggler"
             type="button"
